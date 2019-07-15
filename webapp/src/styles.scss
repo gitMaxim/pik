@@ -1,0 +1,385 @@
+.App {
+  background: #fff;
+  font-family: Graphik;
+}
+
+.LendingOptions-login {
+  width: 400px;
+}
+
+.LendingOptions-login .SliderInput {
+  height: 56px;
+  border: 2px solid #f2f4f5
+}
+
+.LendingOptions-login .SliderInput-input {
+  background: #f2f4f5;
+  border-radius: 4px;
+  font-size: 17px;
+  padding-top: 18px;
+  padding-left: 14px;
+  color: #222;
+  letter-spacing: 0;
+  -webkit-transition: background .4s ease;
+  transition: background .4s ease
+}
+
+.LendingOptions-login .SliderInput-input:focus {
+  background: #fff;
+  outline: none;
+}
+
+.LendingOptions-login .SliderInput-description {
+  font-size: 12px;
+  top: 9px;
+  left: 14px;
+  color: #999;
+  letter-spacing: 0
+}
+
+.Login-container {
+  max-width: 960px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.Login-containerWrapper {
+  padding-top: 15px;
+  max-width: 315px;
+  z-index: 1
+}
+
+.Login-settings-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #222;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.SliderInput-error {
+  position: absolute;
+  top: 50px;
+  font-size: 11px;
+  color: #f63;
+  letter-spacing: 0;
+  line-height: 16px
+}
+
+.Login-settings-link {
+  font-family: Graphik;
+  width: 100%;
+  margin-top: 32px;
+  height: 48px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: background .4s ease;
+  transition: background .4s ease;
+  background: #f63;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0;
+  text-align: center;
+  border: none;
+}
+
+.Login-settings-link:hover {
+  color: #fff
+}
+
+.LendingOptions-input {
+  margin-bottom: 25px;
+  position: relative
+}
+
+.LendingOptions-input-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.SliderInput {
+  width: 100%;
+  height: 72px;
+  background: #fff;
+  border-radius: 4px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 24px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  color: #484848;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+.SliderInput-description {
+  position: absolute;
+  font-size: 13px;
+  color: #5a7788;
+  top: 15px;
+  left: 16px
+}
+
+.SliderInput-error {
+  position: absolute;
+  font-size: 11px;
+  color: #f63;
+  top: 56px;
+  left: 0px;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
+.SliderInput-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  overflow: hidden
+}
+
+.SliderInput-input {
+  border: none;
+  padding-top: 22px;
+  font-weight: 400!important;
+  color: #484848;
+  font-size: 24px;
+  width: 100%;
+  border-radius: 8px;
+  padding-left: 18px;
+  min-width: 100%
+}
+
+.LendingOptions-login .SliderInput {
+  height: 56px;
+  border: 2px solid #f2f4f5
+}
+
+.LendingOptions-login .SliderInput-description {
+  font-size: 12px;
+  top: 9px;
+  left: 14px;
+  color: #999;
+  letter-spacing: 0
+}
+
+.Login-settings-message {
+  justify-content: center;
+  align-content: center;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  height: auto;
+  padding: 13px 16px;
+  margin-top: 24px;
+  color: #4d4d4d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Login-settings-message-error {
+  color: #f63;
+}
+
+.Login-settings-message p {
+  font-size: 14px;
+  margin: 0;
+}
+
+
+@media only screen and (max-width:900px) {
+  .LendingOptions-input {
+    margin-bottom: 20px
+  }
+  .LendingOptions-input:last-child {
+    margin-bottom: 10px
+  }
+  .LendingOptions-button {
+    min-width: 0
+  }
+
+  .Login-settings-link {
+    height: 48px;
+    max-width: 100%;
+    background: #f63;
+    border-radius: 6px;
+    font-family: Graphik;
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 0;
+    text-align: center
+  }
+}
+
+
+@media only screen and (max-width:767px) {
+  .Login-container {
+    padding: 0 16px;
+  }
+
+  .Login-containerWrapper {
+    position: relative;
+    width: auto;
+    max-width: none;
+    padding-top: 0;
+    z-index: auto
+  }
+
+  .LendingOptions-login {
+    width: 80%;
+  }
+
+  .Login-settings-title {
+    font-family: Graphik;
+    font-weight: 500;
+    font-size: 18px;
+    color: #4d4d4d;
+    letter-spacing: 0;
+    line-height: 28px;
+    margin-bottom: 7px
+  }
+
+  .Login-settings-add {
+    border: none;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 12px;
+    color: #4d4d4d;
+    line-height: 15px;
+    margin-top: 0;
+    padding: 10px 16px
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .LendingOptions-login {
+    width: 100%;
+  }
+}
+
+@font-face {
+  font-family: Graphik;
+  src: url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGBlack.eot");
+  src: url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGBlack.woff") format("woff"), url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGBlack.ttf") format("truetype"), url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGBlack.svg") format("svg");
+  font-weight: 700
+}
+
+@font-face {
+  font-family: Graphik;
+  src: url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGBold.eot");
+  src: url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGBold.woff") format("woff"), url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGBold.ttf") format("truetype"), url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGBold.svg") format("svg");
+  font-weight: 600
+}
+
+@font-face {
+  font-family: Graphik;
+  src: url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGSemibold.eot");
+  src: url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGSemibold.woff") format("woff"), url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGSemibold.ttf") format("truetype"), url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGSemibold.svg") format("svg");
+  font-weight: 800
+}
+
+@font-face {
+  font-family: Graphik;
+  src: url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGMedium.eot");
+  src: url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGMedium.woff") format("woff"), url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGMedium.ttf") format("truetype"), url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGMedium.svg") format("svg");
+  font-weight: 500
+}
+
+@font-face {
+  font-family: Graphik;
+  src: url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGRegular.eot");
+  src: url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGRegular.woff") format("woff"), url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGRegular.ttf") format("truetype"), url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGRegular.svg") format("svg");
+  font-weight: 400;
+  font-style: normal
+}
+
+@font-face {
+  font-family: Graphik;
+  src: url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGLight.eot");
+  src: url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGLight.woff") format("woff"), url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGLight.ttf") format("truetype"), url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGLight.svg") format("svg");
+  font-weight: 300
+}
+
+@font-face {
+  font-family: Graphik;
+  src: url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGThin.eot");
+  src: url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGThin.woff") format("woff"), url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGThin.ttf") format("truetype"), url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGThin.svg") format("svg");
+  font-weight: 200
+}
+
+@font-face {
+  font-family: Graphik;
+  src: url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGBlackItalic.eot");
+  src: url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGBlackItalic.woff") format("woff"), url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGBlackItalic.ttf") format("truetype"), url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGBlackItalic.svg") format("svg");
+  font-weight: 700;
+  font-style: italic
+}
+
+@font-face {
+  font-family: Graphik;
+  src: url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGBoldItalic.eot");
+  src: url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGBoldItalic.woff") format("woff"), url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGBoldItalic.ttf") format("truetype"), url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGBoldItalic.svg") format("svg");
+  font-weight: 600;
+  font-style: italic
+}
+
+@font-face {
+  font-family: Graphik;
+  src: url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGMediumItalic.eot");
+  src: url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGMediumItalic.woff") format("woff"), url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGMediumItalic.ttf") format("truetype"), url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGMediumItalic.svg") format("svg");
+  font-weight: 500;
+  font-style: italic
+}
+
+@font-face {
+  font-family: Graphik;
+  src: url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGItalic.eot");
+  src: url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGItalic.woff") format("woff"), url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGItalic.ttf") format("truetype"), url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGItalic.svg") format("svg");
+  font-style: italic
+}
+
+@font-face {
+  font-family: Graphik;
+  src: url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGLightItalic.eot");
+  src: url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGLightItalic.woff") format("woff"), url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGLightItalic.ttf") format("truetype"), url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGLightItalic.svg") format("svg");
+  font-weight: 300;
+  font-style: italic
+}
+
+@font-face {
+  font-family: Graphik;
+  src: url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGThinItalic.eot");
+  src: url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGThinItalic.woff") format("woff"), url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGThinItalic.ttf") format("truetype"), url("https://pik.ru.cdn.pik-service.ru/site/fonts/GraphikLCGThinItalic.svg") format("svg");
+  font-weight: 200;
+  font-style: italic
+}

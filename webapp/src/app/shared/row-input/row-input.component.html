@@ -1,0 +1,21 @@
+<div class="SliderInput">
+  <div class="SliderInput-description">
+    {{description}}
+  </div>
+
+  <div [formGroup]="formGroup" class="SliderInput-container">
+    <input #rowInput
+      class="SliderInput-input"
+      type="text"
+      [formControlName]="formControlName"
+      (click)="onTouched()"
+      (change)="onChange($event)"
+      (input)="onInput()"
+      (focus)="onFocus()"
+      (blur)="onBlur()" />
+  </div>
+
+  <div *ngIf="showError" class="SliderInput-error">
+    {{errorText}}
+  </div>
+</div>

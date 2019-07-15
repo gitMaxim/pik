@@ -1,0 +1,52 @@
+<div class="App Login-containerWrapper Login-container">
+
+  <form *ngIf="registerModel" class="LendingOptions LendingOptions-login" [formGroup]="registerForm"
+    (ngSubmit)="register()">
+  
+    <h3 class="Login-settings-title">Сохранение пользователя</h3>
+  
+    <div class="LendingOptions-input">
+      <app-row-input
+        [formGroup]="registerForm"
+        [formControlName]="registerModel.login.formControlName"
+        [description]="registerModel.login.description"
+        [errorText]="registerModel.login.errorText"
+        [showError]="registerModel.login.showError"
+        (inputChanged)="updateLoginError($event)"
+        (blurChanged)="updateLoginError($event)">
+      </app-row-input>
+    </div>
+  
+    <div class="LendingOptions-input">
+       <app-row-input
+        [formGroup]="registerForm"
+        [formControlName]="registerModel.lastName.formControlName"
+        [description]="registerModel.lastName.description"
+        [errorText]="registerModel.lastName.errorText"
+        [showError]="registerModel.lastName.showError"
+        (inputChanged)="updateLastNameError($event)"
+        (blurChanged)="updateLastNameError($event)">
+      </app-row-input>
+    </div>
+  
+    <div class="LendingOptions-input">
+      <app-row-input
+        [formGroup]="registerForm"
+        [formControlName]="registerModel.firstName.formControlName"
+        [description]="registerModel.firstName.description"
+        [errorText]="registerModel.firstName.errorText"
+        [showError]="registerModel.firstName.showError"
+        (inputChanged)="updateFirstNameError($event)"
+        (blurChanged)="updateFirstNameError($event)">
+      </app-row-input>
+    </div>
+  
+    <div>
+      <button class="Login-settings-link" type="submit" [disabled]="!registerForm.valid">Отправить</button>
+    </div>
+  
+    <div *ngIf="showResponseMessage()" class="Login-settings-message" [class.Login-settings-message-error]="responseHasError">
+      <p>{{responseMessage}}</p>
+    </div>
+  </form>
+</div>
